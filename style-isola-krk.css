@@ -1,0 +1,65 @@
+ body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+    .main-section{
+    padding: 20px;
+ }
+
+ .image-container{
+    height: 500px;
+    background-image: url(pola.jpg);
+    background-repeat: no-repeat;
+ }
+
+ h1{
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+ }
+
+ h3{
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0; 
+ }
+
+ h1, h3{
+    margin-bottom: 0;
+ }
+
+ a{
+    font-weight: 600;
+    font-style: italic;
+ }
+
+ h6{
+    padding: 22px;
+    margin-bottom: 0px ;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgb(160, 130, 91) 0%, rgb(54, 171, 243) 100%);
+ }
+
+ li{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: solid 1px #dfdfdf;
+ }
+
+ footer{
+ background-color: black;
+ padding: 16px;
+ text-align: center;
+ }
+
+ .homepage{
+ color: white;
+ }
