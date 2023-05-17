@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main{
+width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p{
+    margin: 0;
+}
+
+.sidebar-icon ion-icon{
+    font-size: 1.5em;
+}
+
+#topbar {
+height: 8vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+#logo{
+height: 45%;
+    }
+
+#search-wrapper {
+ display: flex;
+ height: 40%;
+ 
+}
+
+#topbar-icons {
+display: flex;
+
+}
+
+.topbar-icon ion-icon{
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+#mic-icon {
+margin: 0 0.5em;
+}
+
+#mic-icon ion-icon{
+  font-size: 1.7em;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#content-immagine{
+    display: grid;
+    gap: 26px 17px;
+    grid-template-columns: 2fr 2fr 2fr;
+    
+    
+   
+    
+}
+#immagine1 {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 23px;
+   
+}
+#immagine2 {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 23px;
+}
+#immagine3 {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 23px;
+}
+#immagine4 {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 23px;
+}
+#immagine5 {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 23px;
+}
+#immagine6 {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 23px;
+}
+
+pre{
+    font-family: 'Roboto', sans-serif; 
+}
+
+span{
+    color: rgb(122, 122, 122);
+}
