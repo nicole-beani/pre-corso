@@ -83,41 +83,41 @@ margin: 0 0.5em;
 
 #content-immagine{
     display: grid;
-    gap: 26px 17px;
+    gap: 28px 0px;
     grid-template-columns: 2fr 2fr 2fr;
 
     
 }
 .immagine1 {
-    padding-top: 12%;
-    padding-left: 5%;
-    padding-right: 23px;
+    padding-top: 8%;
+   padding-left: 2%;
+    
    
 }
 .immagine2 {
-    padding-top: 12%;
-    padding-left: 5%;
-    padding-right: 23px;
+    padding-top: 8%;
+    padding-left: 2%;
+    
 }
 .immagine3 {
-    padding-top: 12%;
-    padding-left: 5%;
-    padding-right: 23px;
+    padding-top: 8%;
+    padding-left: 2%;
+   
 }
 .immagine4 {
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 23px;
+    padding-top: 8%;
+    padding-left: 2%;
+   
 }
 .immagine5 {
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 23px;
+    padding-top: 8%;
+    padding-left: 2%;
+ 
 }
 .immagine6 {
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 23px;
+    padding-top: 8%;
+    padding-left: 2%;
+
 }
 
 pre{
@@ -147,3 +147,85 @@ span{
 }
 
 
+.testo1{
+    display: inline-block;
+    position: relative;
+    bottom: 423px;
+    left: 25px;
+}
+
+.logo-e{
+    display: inline-block;
+    position: relative;
+    bottom: 308px;
+    left: 10px;
+}
+
+
+.testo2{
+    display: inline-block;
+    position: relative;
+    bottom: 423px;
+    left: 25px;
+}
+
+.logo-e1{
+    display: inline-block;
+    position: relative;
+    bottom: 308px;
+    left: 10px;
+}
+
+.testo3{
+    display: inline-block;
+    position: relative;
+    bottom: 423px;
+    left: 25px;  
+}
+.logo-e2{
+    display: inline-block;
+    position: relative;
+    bottom: 308px;
+    left: 10px;  
+}
+
+.testo4{
+    display: inline-block;
+    position: relative;
+    bottom: 206px;
+    left: 25px;  
+}
+
+.logo-e3{
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 10px;    
+}
+
+.testo5{
+    display: inline-block;
+    position: relative;
+    bottom: 206px;
+    left: 25px;  
+}
+.logo-e4{
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 10px;    
+}
+
+.testo6{
+    display: inline-block;
+    position: relative;
+    bottom: 206px;
+    left: 25px;  
+}
+
+.logo-e5{
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 10px;    
+}
