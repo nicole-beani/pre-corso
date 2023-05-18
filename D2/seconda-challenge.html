@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seconda Challenge</title>
+    <style>
+         body{
+    background-color: rgb(255, 176, 176);
+    font-family: 'Lato', sans-serif;
+    margin: 30px;
+    border: 8px ridge rgb(255, 255, 255) ;
+    padding: 2%;
+      }
+      label{
+        font-size: 18px;
+      }
+      input{
+        border: 1px;
+        border-radius: 8px;
+        border-style: dotted;
+        border-color:rgb(0, 0, 0);
+        margin: 4px;
+        background-color: rgb(250, 232, 232);
+      }
+   h1{
+    font-size: 30px;
+    
+   }
+    </style>
+</head>
+<body>
+    <h1>COMPILA IL SEGUENTE FORM</h1>
+    <form onsubmit="alert('Registrazione inviata!')">
+
+      <div>
+        <label for="nome" >Nome:  <input type="text" placeholder="Il tuo nome"></label>
+      </div>
+       
+      <div>
+        <label for="cognome">Cognome: <input type="text" placeholder="Il tuo cognome"></label>
+      </div>
+
+      <div>
+        <label for="indeml">Indirizzo email: <input type="email" placeholder="La tua email"></label>
+      </div>
+
+      <div>
+        <label for="passwd">Password: <input type="password" placeholder="La tua password"></label>
+      </div>
+
+      <div>
+        <label for="datadn"> Data di nascita: <input type="date" ></label>
+      </div>
+
+      <div>
+        <label for="nditel"> Numero di telefono: <input type="number" placeholder="+39 1234567890"></label>
+      </div>
+      <div>
+        <h3> Quali sono i tuoi generi di musica? </h3>
+        <input type="checkbox" id="rock">
+        <label for="rock">ROCK</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="jazz">
+        <label for="jazz">JAZZ</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="pop">
+        <label for="pop">POP</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="rap">
+        <label for="rap">RAP</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="kpop">
+        <label for="kpop">KPOP</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="classica">
+        <label for="classica">CLASSICA</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="metal">
+        <label for="metal">METAL</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="blues">
+        <label for="blues">BLUES</label> </br>
+      </div>
+      <div>
+        <input type="checkbox" id="elettronica">
+        <label for="elettronica">ELETTRONICA</label> </br>
+      </div>
+    </br>
+      <div>
+        <input type="radio" id="accdeitec">
+        <label for="accdeitec"><strong>Accettazione dei termini e condizioni</strong></label> 
+      </div>
+    </br>
+      <input type="submit" value="Invia registrazione">
+      <input type="reset" value="Resetta i campi">
+    </form>
+</body>
+</html>
