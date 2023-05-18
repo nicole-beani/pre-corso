@@ -14,6 +14,7 @@ width: 100%;
 
 #content {
     height: 100%;
+    
 }
 
 #sidebar {
@@ -84,38 +85,36 @@ margin: 0 0.5em;
     display: grid;
     gap: 26px 17px;
     grid-template-columns: 2fr 2fr 2fr;
-    
-    
-   
+
     
 }
-#immagine1 {
+.immagine1 {
     padding-top: 12%;
     padding-left: 5%;
     padding-right: 23px;
    
 }
-#immagine2 {
+.immagine2 {
     padding-top: 12%;
     padding-left: 5%;
     padding-right: 23px;
 }
-#immagine3 {
+.immagine3 {
     padding-top: 12%;
     padding-left: 5%;
     padding-right: 23px;
 }
-#immagine4 {
+.immagine4 {
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 23px;
 }
-#immagine5 {
+.immagine5 {
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 23px;
 }
-#immagine6 {
+.immagine6 {
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 23px;
@@ -128,3 +127,23 @@ pre{
 span{
     color: rgb(122, 122, 122);
 }
+
+#content-logo-e{
+    display: grid;
+    gap: 26px 17px;
+    grid-template-columns: 2fr 2fr 2fr;
+
+
+  
+    
+}
+
+#tt-testo{
+    display: grid;
+    gap: 26px 17px;
+    grid-template-columns: 2fr 2fr 2fr;
+
+
+}
+
+
